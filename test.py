@@ -7,7 +7,7 @@ main_window.title('Погода в твоем городе')
  
 text1=Text(main_window,height=1,width=13,font='Arial 14',wrap=WORD)
 
-
+main_window.state("zoomed")
 button1=Button(main_window,
 	text='Введите город',
 	width=13,
